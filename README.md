@@ -59,7 +59,7 @@ const total = items.reduce((currentTotal, item) => {
 	return currentTotal + item.price;
 }, 0);
 
-const numbers = [2, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
 //return true if the param (2) is in number
 const includesTwo = items.includes(2);
